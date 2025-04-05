@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel Rating="4.3"> <!-- 1 -->
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3"><!-- 2 -->
+    <Name>Hilton Phoenix Airport</Name>
+    <Phone>480-894-1600</Phone>
+    <Address NearstAirport="Phoenix Airport">
+      <Number>2435</Number>
+      <Street>S.47th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85034</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0"><!-- 3 -->
+    <Name>Marriott Scottsdale</Name>
+    <Phone>480-123-4567</Phone>
+    <Address NearstAirport="Phoenix Sky Harbor">
+      <Number>789</Number>
+      <Street>Scottsdale Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85250</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel><!-- 4 -->
+    <Name>Hyatt Regency</Name>
+    <Phone>480-999-8888</Phone>
+    <Address NearstAirport="Tempe Airport">
+      <Number>234</Number>
+      <Street>Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.5"><!-- 5 -->
+    <Name>DoubleTree</Name>
+    <Phone>602-333-4444</Phone>
+    <Phone>800-555-1212</Phone>
+    <Address NearstAirport="Mesa Gateway">
+      <Number>456</Number>
+      <Street>University Dr</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel><!-- 6 -->
+    <Name>Four Seasons</Name>
+    <Phone>602-777-7777</Phone>
+    <Address NearstAirport="Paradise Valley Airstrip">
+      <Number>321</Number>
+      <Street>Paradise Ln</Street>
+      <City>Paradise Valley</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.8"><!-- 7 -->
+    <Name>Fairmont Scottsdale</Name>
+    <Phone>480-223-3344</Phone>
+    <Address NearstAirport="Scottsdale Airport">
+      <Number>202</Number>
+      <Street>Resort Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85255</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel><!-- 8 -->
+    <Name>Aloft Tempe</Name>
+    <Phone>480-341-9898</Phone>
+    <Address NearstAirport="Tempe Private Strip">
+      <Number>951</Number>
+      <Street>Loop 202</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.9"><!-- 9 -->
+    <Name>Courtyard Marriott</Name>
+    <Phone>480-789-0000</Phone>
+    <Address NearstAirport="Tempe Gateway">
+      <Number>567</Number>
+      <Street>Broadway Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel><!-- 10 -->
+    <Name>Motel 6 Downtown</Name>
+    <Phone>602-101-2020</Phone>
+    <Phone>602-202-3030</Phone>
+    <Address NearstAirport="Downtown Phoenix Heliport">
+      <Number>100</Number>
+      <Street>Van Buren St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85003</Zip>
+    </Address>
+  </Hotel>
+
+</Hotels>

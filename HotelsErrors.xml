@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- E1: root is <Hotel> not <Hotels> -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Valid hotel -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- E2: missing NearstAirport -->
+  <Hotel>
+    <Name>Hilton Phoenix</Name>
+    <Phone>602-222-2222</Phone>
+    <Address>
+      <Number>123</Number>
+      <Street>Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- E3: missing phone-->
+  <Hotel Rating="4.0">
+    <Name>Hotel With no Phone</Name>
+    <Address NearstAirport="Tempe Airport">
+      <Number>999</Number>
+      <Street>Missing Phone St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- E4: address is not closed -->
+  <Hotel Rating="3.0">
+    <Name>Broken Address</Name>
+    <Phone>555-123-4567</Phone>
+    <Address NearstAirport="Broken Strip">
+      <Number>101</Number>
+      <Street>Error Lane</Street>
+      <City>Oopsville</City>
+      <State>AZ</State>
+      <Zip>99999</Zip>
+    <!--/Address-->
+  </Hotel>
+
+  <!-- E5: have two name -->
+  <Hotel Rating="3.9">
+    <Name>Two Name Hotel</Name>
+    <Name>Oops Again</Name>
+    <Phone>480-789-0000</Phone>
+    <Address NearstAirport="Phoenix Air">
+      <Number>567</Number>
+      <Street>Broadway Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>
